@@ -1,0 +1,109 @@
+extends layout
+
+block content
+  .hero-section
+    .hero-text
+      h1 Your Personal 
+      h1 Health Assistant
+      h1.span Powered by AI
+      p Talk to AI Doctor, generate health reports, get them validated by Top Doctors from the US and Europe.
+      button.try-fit-for-free Try Fit for Free
+    .hero-image
+      img(src='/images/hero-image.jpg', alt='Health Assistant Image')
+
+
+  .container
+      h1 Make Informed Health Decisions
+      p We have all you need to better understand your health and make informed and accurate decisions about your well-being.
+      
+      .grid-container
+        .card
+          img(src="/images/hellobot.png" alt="AI Doctor Icon")
+          h2.ai-doctor Personal AI Doctor
+          p Customize your personal AI Doctor. Simply complete your health profile, ask your health questions, and receive personalized, data-driven advice.
+          ul
+            li Get tailored insights
+            li Discover your health risks
+            li Get personal checkup plans
+            li Generate health reports
+          a(href="#") CHAT WITH AI DOCTOR →
+        
+        .card
+          img(src="/images/sleep.jpg" alt="Lab Test Icon")
+          h2 Sleep
+          p Track and analyze your sleep patterns to ensure you get the rest you need for optimal health.
+          a(href="#") GO TO SLEEP →
+        
+        .card
+          img(src="/images/nutrition.jpg" alt="Supplements Icon")
+          h2 Nutrition
+          p Monitor your dietary intake and get personalized nutrition advice to support your health goals.
+          a(href="#") GO TO NUTRITION →
+        
+        .card
+          img(src="/images/workout.jpg" alt="Symptom Checker Icon")
+          h2 Workout
+          p Log your workouts and receive tailored exercise plans to enhance your fitness journey.
+          a(href="#") GO TO WORKOUT →
+        
+        .card
+          img(src="/images/vitals.jpg" alt="Doctors Access Icon")
+          h2 Vitals
+          p Keep track of your vital signs and health metrics to stay informed about your overall well-being.
+          a(href="#") UPDATE VITALS →
+
+
+  .features
+    h1 Benefits of Personal AI Health Assistant
+    p We have all you need to better understand your health and make informed and accurate decisions about your well-being.
+    .feature-container
+      .feature
+        img(src='/images/feature1.jpg', alt='Feature One Image')
+        h3 Generate your health report
+        p Submit anonymized details regarding your medical history, test results, and current condition. Receive comprehensive differential diagnosis (DDx) - a list of potential diseases with their probabilities.
+      .feature
+        img(src='/images/feature2.jpg', alt='Feature Two Image')
+        h3 Personalized assistance
+        p The AI model is designed to provide personalized virtual health assistance and recommendations tailored to an individual's medical history, and symptoms offering valuable insights for users.
+      .feature
+        img(src='/images/feature3.jpg', alt='Feature Three Image')
+        h3 Validate with Top Doctors
+        p Get the confidence to move forward with your local doctor by validating your diagnosis or treatment strategy with a Top Medical Expert from the US or Europe.
+      button.try-fit-for-free Try Fit for Free
+
+
+  .data-section
+    .info-section
+      .info-container
+        .info-left
+          img.lock-icon(src='/images/padlockwhite.png', alt='Padlock Icon')
+          .text-container
+            h2 Your health data
+            span.is-safe Is safe
+        .info-right
+          .info-details
+            .info-item
+              i.icon-key
+              p No personally identifiable information is required to utilize the Docus AI Health Assistant and its associated features.
+            .info-item
+              i.icon-shield
+              p Any data shared while using our services is safeguarded by advanced security protocols, ensuring compliance with HIPAA and GDPR.
+  
+  
+  .chat-feature
+      h1 Feel the Magic of Fit
+      p Experience the power of AI in healthcare! Ask any health-related question to AI Doctor.
+      .chatbox 
+        img(src='/images/hellobot.png')
+        p I'm here to support with any health-related questions you may have.
+        h4 How can I help you?
+        .input-container
+          input(type="text" placeholder="I'm here to support with any health-related questions you may have")
+          div.send-button
+            img(src='/images/sendbtn.png', alt="")
+
+
+
+  
+
+

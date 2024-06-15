@@ -1,0 +1,72 @@
+
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/styles.css')
+    script(src='https://kit.fontawesome.com/07354a8b71.js" crossorigin="anonymous')
+  body
+    nav
+      .nav-left
+        h1 HealthSphere
+        ul
+          li: a(href='/') Home
+          li: a(href='/services') Services
+          li: a(href='/contact') Contact Us
+      .nav-right
+        h4.signin Sign in
+        button Get Started for Free
+        
+    block content
+
+
+  .footer
+      .footer-container
+        .footer-logo
+          h1 HealthSphere
+          p Improving human health through the combination of cutting-edge technologies and top medical expertise.
+          .social-icons
+            a(href='#')
+              img(src='/images/facebook.png')
+            a(href='#')
+              img(src='/images/instagram.png')
+            a(href='#')
+              img(src='/images/linkedin-logo.png')
+            a(href='#')
+              img(src='/images/twitter-sign.png')
+        .footer-columns
+          .footer-column
+            h4 Company
+            ul
+              li: a(href='#') About us
+              li: a(href='#') Pricing
+              li: a(href='#') Join as a Health Personel
+              li: a(href='#') Contact
+          .footer-column
+            h4 Product
+            ul
+              li: a(href='#') AI Health Assistant
+              li: a(href='#') Supplements
+              li: a(href='#') Lab Test Interpretation
+              li: a(href='#') Lifestyle Plan
+              li: a(href='#') Second Opinion
+          .footer-column
+            h4 Resources
+            ul
+              li: a(href='#') Blog
+              li: a(href='#') Knowledge Base
+              li: a(href='#') Symptoms Guide
+              li: a(href='#') All Articles
+              li: a(href='#') Use Cases
+          .footer-column
+            h4 Trust
+            ul
+              li: a(href='#') Terms of use
+              li: a(href='#') Privacy policy
+              li: a(href='#') Cookie policy
+      hr
+      .footer-bottom
+          p © 2024 HealthSphere, Inc.
+
+  
+
